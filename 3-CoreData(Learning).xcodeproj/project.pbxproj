@@ -18,6 +18,8 @@
 		040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */; };
 		040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */; };
 		040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */; };
+		040DA92429954D6900008B94 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92329954D6900008B94 /* MyTableViewController.swift */; };
+		040DA92629954F9900008B94 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92529954F9900008B94 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
 		040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		040DA92329954D6900008B94 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		040DA92529954F9900008B94 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				040DA9052995458000008B94 /* SceneDelegate.swift */,
 				040DA9072995458000008B94 /* ViewController.swift */,
 				040DA9092995458000008B94 /* Main.storyboard */,
+				040DA92329954D6900008B94 /* MyTableViewController.swift */,
+				040DA92529954F9900008B94 /* CoreDataManager.swift */,
 				040DA90F2995458200008B94 /* Assets.xcassets */,
 				040DA9112995458200008B94 /* LaunchScreen.storyboard */,
 				040DA9142995458200008B94 /* Info.plist */,
@@ -165,9 +171,11 @@
 				040DA9082995458000008B94 /* ViewController.swift in Sources */,
 				040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */,
 				040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */,
+				040DA92429954D6900008B94 /* MyTableViewController.swift in Sources */,
 				040DA9042995458000008B94 /* AppDelegate.swift in Sources */,
 				040DA9062995458000008B94 /* SceneDelegate.swift in Sources */,
 				040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */,
+				040DA92629954F9900008B94 /* CoreDataManager.swift in Sources */,
 				040DA91E29954C2600008B94 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
