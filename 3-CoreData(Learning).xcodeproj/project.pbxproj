@@ -14,6 +14,10 @@
 		040DA90E2995458000008B94 /* __CoreData_Learning_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040DA90C2995458000008B94 /* __CoreData_Learning_.xcdatamodeld */; };
 		040DA9102995458200008B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040DA90F2995458200008B94 /* Assets.xcassets */; };
 		040DA9132995458200008B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040DA9112995458200008B94 /* LaunchScreen.storyboard */; };
+		040DA91E29954C2600008B94 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91A29954C2600008B94 /* User+CoreDataClass.swift */; };
+		040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */; };
+		040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */; };
+		040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		040DA90F2995458200008B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040DA9122995458200008B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040DA9142995458200008B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040DA91A29954C2600008B94 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		040DA9022995458000008B94 /* 3-CoreData(Learning) */ = {
 			isa = PBXGroup;
 			children = (
+				040DA92229954C6200008B94 /* Models */,
 				040DA9032995458000008B94 /* AppDelegate.swift */,
 				040DA9052995458000008B94 /* SceneDelegate.swift */,
 				040DA9072995458000008B94 /* ViewController.swift */,
@@ -68,6 +77,17 @@
 				040DA90C2995458000008B94 /* __CoreData_Learning_.xcdatamodeld */,
 			);
 			path = "3-CoreData(Learning)";
+			sourceTree = "<group>";
+		};
+		040DA92229954C6200008B94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				040DA91A29954C2600008B94 /* User+CoreDataClass.swift */,
+				040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */,
+				040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */,
+				040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +163,12 @@
 			files = (
 				040DA90E2995458000008B94 /* __CoreData_Learning_.xcdatamodeld in Sources */,
 				040DA9082995458000008B94 /* ViewController.swift in Sources */,
+				040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */,
+				040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */,
 				040DA9042995458000008B94 /* AppDelegate.swift in Sources */,
 				040DA9062995458000008B94 /* SceneDelegate.swift in Sources */,
+				040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */,
+				040DA91E29954C2600008B94 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
