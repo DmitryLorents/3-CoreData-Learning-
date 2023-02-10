@@ -2,12 +2,13 @@
 //  User+CoreDataProperties.swift
 //  3-CoreData(Learning)
 //
-//  Created by Mac on 09.02.2023.
+//  Created by Mac on 10.02.2023.
 //
 //
 
 import Foundation
 import CoreData
+import UIKit
 
 
 extension User {
@@ -16,8 +17,10 @@ extension User {
         return NSFetchRequest<User>(entityName: "User")
     }
 
-    @NSManaged public var name: String?
+    @NSManaged public var firstName: String?
+    @NSManaged public var avatar: UIImage?
     @NSManaged public var book: Book?
+    
 
 }
 

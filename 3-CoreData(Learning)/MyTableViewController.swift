@@ -18,8 +18,8 @@ class MyTableViewController: UITableViewController {
         super.viewDidLoad()
         
         let fetchRequest = User.fetchRequest()
-        let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
-        fetchRequest.fetchLimit = 115
+        let sortDescriptor = NSSortDescriptor(key: #keyPath(User.firstName), ascending: true)
+        fetchRequest.fetchLimit = 15
         fetchRequest.sortDescriptors = [sortDescriptor]
         let context = CoreDataManager.instance.viewContext
         fetchResultController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
@@ -30,9 +30,9 @@ class MyTableViewController: UITableViewController {
     
     @IBAction func addButtonAction(_ sender: Any) {
         let user = User(context: CoreDataManager.instance.viewContext)
-        user.name = "Bob \(Int.random(in: 0...100))"
+        user.firstName = "Bob \(Int.random(in: 0...100))"
         let book = Book(context: CoreDataManager.instance.viewContext)
-        book.name = "Some book"
+        book.firstName = "Some book"
         user.book = book
         CoreDataManager.instance.saveContext()
         tableView.reloadData()
@@ -57,8 +57,8 @@ class MyTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let user = fetchResultController.object(at: indexPath)
-        cell.textLabel?.text = user.name
-        cell.detailTextLabel?.text = user.book?.name
+        cell.textLabel?.text = user.firstName
+        cell.detailTextLabel?.text = user.book?.firstName
         return cell
     }
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {

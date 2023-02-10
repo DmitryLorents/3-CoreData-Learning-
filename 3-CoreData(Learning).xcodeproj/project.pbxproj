@@ -14,12 +14,13 @@
 		040DA90E2995458000008B94 /* __CoreData_Learning_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040DA90C2995458000008B94 /* __CoreData_Learning_.xcdatamodeld */; };
 		040DA9102995458200008B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040DA90F2995458200008B94 /* Assets.xcassets */; };
 		040DA9132995458200008B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040DA9112995458200008B94 /* LaunchScreen.storyboard */; };
-		040DA91E29954C2600008B94 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91A29954C2600008B94 /* User+CoreDataClass.swift */; };
-		040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */; };
-		040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */; };
-		040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */; };
 		040DA92429954D6900008B94 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92329954D6900008B94 /* MyTableViewController.swift */; };
 		040DA92629954F9900008B94 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92529954F9900008B94 /* CoreDataManager.swift */; };
+		040DA92E2996101300008B94 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92C2996101300008B94 /* Book+CoreDataClass.swift */; };
+		040DA92F2996101300008B94 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA92D2996101300008B94 /* Book+CoreDataProperties.swift */; };
+		040DA9312996114500008B94 /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA9302996114500008B94 /* ImageTransformer.swift */; };
+		040DA935299612AF00008B94 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DA934299612AF00008B94 /* User+CoreDataProperties.swift */; };
+		04EA69DE2996141500F74DBF /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA69DD2996141500F74DBF /* User+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +33,14 @@
 		040DA90F2995458200008B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040DA9122995458200008B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040DA9142995458200008B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040DA91A29954C2600008B94 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
-		040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		040DA92329954D6900008B94 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		040DA92529954F9900008B94 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		040DA92B29960EAE00008B94 /* __CoreData_Learning_ 2v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "__CoreData_Learning_ 2v2.xcdatamodel"; sourceTree = "<group>"; };
+		040DA92C2996101300008B94 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataClass.swift"; path = "../../Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		040DA92D2996101300008B94 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Book+CoreDataProperties.swift"; path = "../../Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		040DA9302996114500008B94 /* ImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
+		040DA934299612AF00008B94 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04EA69DD2996141500F74DBF /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 			children = (
 				040DA92229954C6200008B94 /* Models */,
 				040DA9032995458000008B94 /* AppDelegate.swift */,
+				040DA9302996114500008B94 /* ImageTransformer.swift */,
 				040DA9052995458000008B94 /* SceneDelegate.swift */,
 				040DA9072995458000008B94 /* ViewController.swift */,
 				040DA9092995458000008B94 /* Main.storyboard */,
@@ -88,10 +92,10 @@
 		040DA92229954C6200008B94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				040DA91A29954C2600008B94 /* User+CoreDataClass.swift */,
-				040DA91B29954C2600008B94 /* User+CoreDataProperties.swift */,
-				040DA91C29954C2600008B94 /* Book+CoreDataClass.swift */,
-				040DA91D29954C2600008B94 /* Book+CoreDataProperties.swift */,
+				040DA934299612AF00008B94 /* User+CoreDataProperties.swift */,
+				040DA92C2996101300008B94 /* Book+CoreDataClass.swift */,
+				04EA69DD2996141500F74DBF /* User+CoreDataClass.swift */,
+				040DA92D2996101300008B94 /* Book+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,14 +173,15 @@
 			files = (
 				040DA90E2995458000008B94 /* __CoreData_Learning_.xcdatamodeld in Sources */,
 				040DA9082995458000008B94 /* ViewController.swift in Sources */,
-				040DA92029954C2600008B94 /* Book+CoreDataClass.swift in Sources */,
-				040DA91F29954C2600008B94 /* User+CoreDataProperties.swift in Sources */,
+				040DA92F2996101300008B94 /* Book+CoreDataProperties.swift in Sources */,
 				040DA92429954D6900008B94 /* MyTableViewController.swift in Sources */,
 				040DA9042995458000008B94 /* AppDelegate.swift in Sources */,
 				040DA9062995458000008B94 /* SceneDelegate.swift in Sources */,
-				040DA92129954C2600008B94 /* Book+CoreDataProperties.swift in Sources */,
+				040DA935299612AF00008B94 /* User+CoreDataProperties.swift in Sources */,
+				040DA92E2996101300008B94 /* Book+CoreDataClass.swift in Sources */,
+				04EA69DE2996141500F74DBF /* User+CoreDataClass.swift in Sources */,
 				040DA92629954F9900008B94 /* CoreDataManager.swift in Sources */,
-				040DA91E29954C2600008B94 /* User+CoreDataClass.swift in Sources */,
+				040DA9312996114500008B94 /* ImageTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +404,10 @@
 		040DA90C2995458000008B94 /* __CoreData_Learning_.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				040DA92B29960EAE00008B94 /* __CoreData_Learning_ 2v2.xcdatamodel */,
 				040DA90D2995458000008B94 /* __CoreData_Learning_.xcdatamodel */,
 			);
-			currentVersion = 040DA90D2995458000008B94 /* __CoreData_Learning_.xcdatamodel */;
+			currentVersion = 040DA92B29960EAE00008B94 /* __CoreData_Learning_ 2v2.xcdatamodel */;
 			path = __CoreData_Learning_.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
