@@ -34,6 +34,7 @@ class MyTableViewController: UITableViewController {
         let book = Book(context: CoreDataManager.instance.viewContext)
         book.firstName = "Some book"
         user.book = book
+        user.avatar = UIImage(named: "avatar")
         CoreDataManager.instance.saveContext()
         tableView.reloadData()
     }
@@ -59,6 +60,7 @@ class MyTableViewController: UITableViewController {
         let user = fetchResultController.object(at: indexPath)
         cell.textLabel?.text = user.firstName
         cell.detailTextLabel?.text = user.book?.firstName
+        cell.imageView?.image = user.avatar
         return cell
     }
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
